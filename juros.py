@@ -1,3 +1,5 @@
+# programa para calcular juros 
+
 print ("--------------------------------------------")
 print ("--------Calculadora de Juros Simples--------")
 print ("--------------------------------------------")
