@@ -9,9 +9,12 @@ tempo = int(input ("Qual é o seu tempo de serviço: "))
 
 print ()
 
-
+bonus = salario/1.05
 
 if tempo > 5:
     print("Você recebeu um bônus de 5%")
-    print (f"Seu salário atual é de")
+    print (f"Seu salário atual é de {bonus + salario: .2f}")
+else:
+    print ("Você não pode receber bônus salarial")
+    
 
