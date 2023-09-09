@@ -1,6 +1,7 @@
 # Programa que peça o nome,idade,peso e altura de uma pessoa
-
-print ("------- IMC ------- \n")
+print ("-------------------")
+print ("------- IMC -------")
+print ("-------------------")
 
 nome = input ("Qual é o seu nome: ")
 idade = int (input ("Idade: "))
@@ -9,6 +10,6 @@ altura = float (input ("Altura: "))
 
 imc = peso/(altura*altura)
 
-print (f"Olá {nome}")
-print (f"Sua idade é de {idade}")
+print (f"Olá {nome};")
+print (f"Sua idade é de {idade} anos;")
 print (f"Seu IMC é de {imc: .2f};")
