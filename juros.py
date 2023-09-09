@@ -6,7 +6,7 @@ print ("--------------------------------------------")
 
 valor = float(input("Qual o valor principal? "))
 jurosanual = float(input("Qual é o Juros Anual? "))
-tempo = int (input("Qual foi o período de Tempo em Anos ? "))
+tempo = float (input("Qual foi o período de Tempo em Anos ? "))
 
 juros = jurosanual/100
 
