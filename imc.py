@@ -4,7 +4,7 @@ print ("------- IMC -------")
 print ("-------------------")
 
 nome = input ("Qual é o seu nome: ")
-idade = int (input ("Idade: "))
+idade = input ("Idade: ")
 peso = float (input ("Peso: "))
 altura = float (input ("Altura: "))
 
