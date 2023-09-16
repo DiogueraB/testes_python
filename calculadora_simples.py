@@ -9,13 +9,22 @@ operacao = input("Escolha uma operação (+, -, *, /) ")
 
 print ()
 
+resultado = ''
+
 if operacao == "+":
-    print(f"O resultado é {num1 + num2}")
+    resultado = num1 + num2
 elif operacao == "-":
-    print(f"O resultado é {num1 - num2}")
+    resultado = num1 - num2
 elif operacao == "*":
-    print(f"O resultado é {num1 * num2}")
+    resultado = num1 * num2
 elif operacao == "/":
-    print(f"O resultado é {num1 / num2}")
+    if (num2 == 0):
+        print("Não é possível dividir por 0")
+    else:
+        resultado = num1 / num2
 else:
     print("Operação não reconhecida.")
+
+if resultado != '':
+    print (f"O resultado é: {resultado}")
+    
