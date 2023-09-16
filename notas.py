@@ -14,7 +14,7 @@ elif nota >= 70 and nota <= 79:
     print ("Sua nota é: C ")
 elif nota >= 60 and nota <= 69:
     print ("Sua nota é: D ")
-elif nota < 60:
+elif nota < 60 and nota > 0:
     print ("Sua nota é: F ")
 else:
-    print ("Sua nota máxima é 100")
+    print ("Sua nota máxima é 100 e mínima 0")
