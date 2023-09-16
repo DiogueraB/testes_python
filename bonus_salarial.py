@@ -7,14 +7,14 @@ print ()
 salario = float(input ("Insira seu salário: "))
 tempo = int(input ("Qual é o seu tempo de serviço: "))
 
-print ()
-
-bonus = salario/1.05
-
+total = 0
 if tempo > 5:
-    print("Você recebeu um bônus de 5%")
-    print (f"Seu salário atual é de {bonus + salario: .2f}")
+    total = salario * 1.05
 else:
-    print ("Você não pode receber bônus salarial")
-    
+    total = salario
+
+if total > salario:
+    print (f"Seu novo salário é de {total}")
+else:
+    print (f"Seu salário permanece o mesmo")
 
