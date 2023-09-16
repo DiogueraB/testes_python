@@ -13,7 +13,7 @@
 #8 – 18 vezes: 12% de juros ao mês. 
 #O usuário informa o valor total da compra, a forma de pagamento e o numero de parcelas. Ao final o programa mostra o valor final.
 
-print ("=====Loja de Roupas=====")
+print ("=========================Loja de Roupas=========================")
 print()
 
 valortotal = float(input("Qual o valor total da compra? R$"))
