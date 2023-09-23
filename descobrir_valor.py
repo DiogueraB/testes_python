@@ -6,7 +6,7 @@
 from random import randint
 
 valorsorteado = randint(0 , 100)
-tentativa = 1
+tentativa = 0
 
 escolha = int(input("Escolha um número: "))
 
