@@ -11,13 +11,14 @@ tentativa = 0
 escolha = int(input("Escolha um número: "))
 
 while escolha != valorsorteado:
+
     if escolha > valorsorteado:
-        print ("A escolha é maior")     
+        print ("O valor sorteado é menor")     
         print()
     else:
-        print ("A escolha é menor")
+        print ("O valor sorteado é maior")
         print()
-    
+        
     escolha = int(input("Escolha um número: "))
     tentativa += 1
 
