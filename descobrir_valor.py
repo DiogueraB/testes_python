@@ -12,10 +12,10 @@ escolha = int(input("Escolha um número: "))
 
 while escolha != valorsorteado:
     if escolha > valorsorteado:
-        print ("O valor escolhido é maior")     
+        print ("A escolha é maior")     
         print()
     else:
-        print ("O valor escolhido é menor")
+        print ("A escolha é menor")
         print()
     
     escolha = int(input("Escolha um número: "))
