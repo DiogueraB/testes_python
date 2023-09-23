@@ -3,8 +3,6 @@
 # - Programa informará se o chute é menor ou maior que o valor sorteado.
 # - O processo se repete até que o jogador acerte o valor sorteado.
 
-
-
 from random import randint
 
 valorsorteado = randint(0 , 100)
