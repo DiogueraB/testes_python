@@ -72,4 +72,6 @@ elif formapagamento == "Prazo":
         juros = 0.12
         print("Essa compra possui 12% de juros")
         print(f"Valor final da sua compra é de {(valortotal/parcelas)*juros*18+valortotal: .2f}")
-             
+        
+                
+            
