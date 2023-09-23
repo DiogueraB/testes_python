@@ -9,10 +9,10 @@
 # print ("------------------------------")
 
 
-print ("------------ TABUADA ------------")
+print ("------------- TABUADA -------------")
 tabuada = int(input("Escolha uma tabuada para ser impressa: "))
 for numero in range (0, 11):
     total = tabuada * numero
     print(f"{tabuada} x {numero} = {total}")
-print("-----------------------------------")
+print("------------------------------------")
 
