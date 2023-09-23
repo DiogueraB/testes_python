@@ -3,16 +3,15 @@
 # - Refatore o código para solicitar ao usuário qual tabuada deve ser impressa.
 
 # print ("-------- Tabuada do 2 --------")
-# tabuada = 2
 # for numero in range (0 , 11):
-#       print(f"{tabuada} x {numero} = {tabuada*numero}")
+#       print(f" 2 x {numero} = {numero * 2}")
 # print ("------------------------------")
 
 
 print ("------------- TABUADA -------------")
 tabuada = int(input("Escolha uma tabuada para ser impressa: "))
 for numero in range (0, 11):
-    total = tabuada * numero
+    total = numero * tabuada
     print(f"{tabuada} x {numero} = {total}")
 print("------------------------------------")
 
